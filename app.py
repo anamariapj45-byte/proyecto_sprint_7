@@ -14,4 +14,17 @@ if hist_button: # al hacer clic en el botón
      
          # mostrar un gráfico Plotly interactivo
     st.plotly_chart(fig, use_container_width=True)
+
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
+disp_button = st.button('Construir un gráfico de disperción') # crear un botón
+ 
+if disp_button: # al hacer clic en el botón
+         # escribir un mensaje
+    st.write('Creación de un gráfico de disperción para el conjunto de datos de anuncios de venta de coches')
+         
+         # crear un un gráfico de disperción
+    fig = px.scatter(car_data, x="odometer")
+     
+         # mostrar un gráfico Plotly interactivo
+    st.plotly_chart(fig, use_container_width=True)
     
