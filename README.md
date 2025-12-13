@@ -1,2 +1,4 @@
 # proyecto_sprint_7
 # https://proyecto-sprint-7-3aqi.onrender.com
+# Esta aplicacion se creo utilizando la base de datos vehicles_us.csv en la cual muestra el conjunto de datos de anuncios de venta de coches.
+# consta de dos botones: "construir un histograma" donde se crea un histograma para el conjunto de datos de anuncios de venta de coches; este boton es interactivo al mover el cursor en cualquier punto muestra cuantos coches tienen cierto numero de kelometros recorridos."construir un grafico de dispercion" donde se crea un histograma para el conjunto de datos de anuncios de venta de coches; este boton muestra el precio de los coches que tienen ciertos kilometros recorridos.
